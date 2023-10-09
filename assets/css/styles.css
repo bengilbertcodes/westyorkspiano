@@ -3,12 +3,37 @@
 
 body {
     background-color: #f7ede2;
-    font-family: "Merriweather", sans-serif;
+    font-family: "Merriweather", Helvetica, sans-serif;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #896978;
+    width: 100%;
+    padding:10px;
 }
 
 h1 {
    text-align: center;
-   color: #04395e;
+   color: #f7ede2;
+   font-family: "Karla", serif;
+   background-color: #896978;
+}
+
+nav {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 8px;
+    
+}
+
+a {
+    text-decoration: none;
 }
 
 .footer {
