@@ -105,7 +105,7 @@ a {
         padding-right: 1rem;
         background-color: #896978;
     }
-
+/* Need to ge the menu to align to the right */
     #menu {
         display: flex;
     }
@@ -126,7 +126,7 @@ a {
 
 
     .main {
-        margin-top: 79px;
+        margin-top: 100px;
     }
 }
 
