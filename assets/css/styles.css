@@ -68,7 +68,7 @@ nav {
     padding-right: 4px;
 }
 
-li {
+nav li {
     list-style-type: none;
     padding: 3px 4px;
 }
@@ -82,6 +82,7 @@ a {
     border-bottom: 1px solid #04395e;
 }
 .footer {
+    display: flex;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -90,6 +91,19 @@ a {
     color: #f7ede2;
     text-align: center;
     box-shadow: 0 0 0 2px #04395e;
+}
+
+.sm-links {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+}
+
+.sm-links i {
+    font-size: 160%;
+    padding: 5px 3px;
 }
 
 @media screen and (min-width: 768px) {
