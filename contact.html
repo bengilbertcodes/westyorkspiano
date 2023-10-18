@@ -34,21 +34,27 @@
                 </nav>
     </header>
 
-    <div class="main">
-        <form action="post">Please use the form below to contact West Yorkshire Piano Studio. 
+    <div id="contact">
+        <h2><i class="fa-solid fa-music" style="color: #04395e;"></i> Contact Us</h2>
+        <div id="contact-form">
+        <form id="enquiry-form" method="POST"  action="https://formdump.codeinstitute.net">If you have any questions about lessons or other services we offer then please use the form below to contact West Yorkshire Piano Studio. <br>
+            We will respond to your enquiry as soon as possible.
             <br>
                 <label for="name">Name:</label>
-                <input name="name" id="name" value="" type="text">
+                <input name="name" required id="name" class="text-input" type="text">
             <br>
-                <label for="email">Email:</label>
-                <input name="email" id="email" value="" type="email">
+                <label for="email-address">Email:</label>
+                <input name="email" required id="email-address" class="text-input" type="email">
             <br>
                 <label for="phone">Mobile:</label>
-                <input name="phone" id="phone" value="" type="tel">
+                <input name="phone" required id="phone" class="text-input" type="tel">
             <br>
                 <label for="comment">Enquiry:</label>
-                <input type="text" name="comment" id="comment">
+                <input type="text" name="comment" class="text-input" id="comment"> 
+            <br>
+                <input class="submit-button" type="submit">
         </form>
+        </div>
     </div>   
 
 <footer class="footer">
