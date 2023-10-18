@@ -23,7 +23,6 @@ header {
     box-shadow: 0 2px 2px #04395e;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 h1 {
@@ -62,7 +61,7 @@ nav {
     padding-right: 4px;
 }
 
-nav li {
+nav > li {
     list-style-type: none;
     padding: 3px 4px;
 }
@@ -77,11 +76,24 @@ a {
 }
 
 .main {
-    margin-top: 138px;
+    margin-top: 127px;
+}
+
+.main > h2 {
+    text-align: center;
+}
+
+.main > p {
+    padding: 3px ;
 }
 
 .main img {
     width: 100%;
+}
+
+.main > ul {
+    margin: 3px 20px;
+    list-style-image: url(/assets/images/piano-list-icon.png);
 }
 
 .footer {
