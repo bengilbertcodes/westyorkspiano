@@ -83,6 +83,9 @@ main {
 main h2 {
     padding: 1px;
     text-align: right;
+    margin-right: 5px;
+    color: #04395e;
+    text-transform: uppercase;
     border-bottom: 1px solid #04395e;
 }
 

@@ -80,7 +80,11 @@ a {
 }
 
 .main > h2 {
-    text-align: center;
+    text-align: right;
+    margin-right: 5px;
+    color: #04395e;
+    text-transform: uppercase;
+    border-bottom: 1px solid #04395e;
 }
 
 .main > p {

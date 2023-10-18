@@ -79,6 +79,16 @@ main {
     flex: 1 0 auto;
 }
 
+main h2 {
+    padding: 1px;
+    text-align: right;
+    margin-right: 5px;
+    color: #04395e;
+    text-transform: uppercase;
+    border-bottom: 1px solid #04395e;
+    
+}
+
 #contact {
     margin-top: 130px;
 }
@@ -89,8 +99,14 @@ main {
 
 .text-input {
     width: 100%;
+    height: 25px;
+    border: 1px solid #04395e;
+    border-radius: 4px;
 }
 
+.text-input-enquiry {
+    height: 128px;
+}
 
 .footer {
     display: flex;
