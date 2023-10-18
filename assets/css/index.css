@@ -1,0 +1,170 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Merriweather+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7ede2;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #896978;
+    box-shadow: 0 2px 2px #04395e;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+h1 {
+   font-size: 300%;
+   letter-spacing: 1px;
+   padding-left: 4px;
+   text-align: left;
+   color: #f7ede2;
+   font-family: "Karla", serif;
+   background-color: #896978;
+}
+
+nav {
+    position: absolute;
+    background-color: #f7ede2;
+    width: 100%;
+    top: 100%;
+    padding-left: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 110%;
+    display: none;
+    box-shadow: 0 2px 2px #04395e;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 3rem;
+    padding-right: 4px;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 3px 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #04395e;
+}
+
+.active {
+    border-bottom: 1px solid #04395e;
+}
+
+/* This all needs to be fixed! each image should take up one third of available space */
+main {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+span {
+    font-size: 64px;
+    color: #f7ede2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #896978;
+    color: #f7ede2;
+    text-align: center;
+    box-shadow: 0 0 0 2px #04395e;
+}
+
+.sm-links {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+}
+
+.sm-links i {
+    font-size: 160%;
+    padding: 5px 3px;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        background-color: #896978;
+    }
+/* Need to ge the menu to align to the right */
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 2rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+
+    .main {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
