@@ -75,22 +75,23 @@ a {
     border-bottom: 1px solid #04395e;
 }
 
-.main {
-    margin-top: 127px;
+main {
+    margin-top: 130px;
+    flex: 1 0 auto;
 }
 
-.main > h2 {
+main h2 {
     padding: 1px;
     text-align: right;
     border-bottom: 1px solid #04395e;
 }
 
-.main > h4 {
+main h4 {
     padding: 2px;
 
 }
 
-.main > p {
+main p {
     padding: 2px;
     text-align: right;
 }

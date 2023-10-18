@@ -75,13 +75,20 @@ a {
     border-bottom: 1px solid #04395e;
 }
 
-#contact {
-    margin-top: 138px;
+main {
+    flex: 1 0 auto;
 }
 
+#contact {
+    margin-top: 130px;
+}
 
 #contact-form {
     padding: 20px;
+}
+
+.text-input {
+    width: 100%;
 }
 
 
