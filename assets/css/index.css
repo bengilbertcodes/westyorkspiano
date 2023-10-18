@@ -27,7 +27,7 @@ header {
 }
 
 h1 {
-   font-size: 300%;
+   font-size: 225%;
    letter-spacing: 1px;
    padding-left: 4px;
    text-align: left;
@@ -80,12 +80,11 @@ a {
 main {
     height: 100%;
     width: 100%;
+    margin-top: 138px;
 }
 
 img {
-    height: 100%;
     width: 100%;
-    position: relative;
     text-align: center;
 }
 
