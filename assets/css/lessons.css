@@ -97,7 +97,7 @@ a {
 
 .main > ul {
     margin: 3px 20px;
-    list-style-image: url(assets/images/piano-list-icon.png);
+    list-style-image: url("assets/images/piano-list-icon.png");
 }
 
 .footer {
