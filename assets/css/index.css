@@ -14,6 +14,8 @@ body {
     overflow: hidden;
 }
 
+/* Header and nav styles */
+
 header {
     position: fixed;
     left: 0;
@@ -75,6 +77,8 @@ a {
     border-bottom: 1px solid #04395e;
 }
 
+/* index.html styles */
+
 /* This all needs to be fixed. each image should take up one third of available space */
 main {
     margin-top: 128px;
@@ -116,6 +120,102 @@ main {
     border: 3px solid #f7ede2;
 }
 
+/* lessons.html styles */
+
+.main {
+    margin-top: 130px;
+}
+
+.main > h2 {
+    text-align: right;
+    margin-right: 5px;
+    color: #04395e;
+    text-transform: uppercase;
+    border-bottom: 1px solid #04395e;
+}
+
+.main > p {
+    padding: 3px ;
+}
+
+.main img {
+    width: 100%;
+}
+
+.main > ul {
+    margin: 3px 20px;
+    list-style-image: url("../images/piano-list-icon.png");
+}
+
+/* music.html styles */
+
+main {
+    margin-top: 130px;
+    flex: 1 0 auto;
+}
+
+main h2 {
+    padding: 1px;
+    text-align: right;
+    margin-right: 5px;
+    color: #04395e;
+    text-transform: uppercase;
+    border-bottom: 1px solid #04395e;
+}
+
+main h4 {
+    padding: 2px;
+
+}
+
+main p {
+    padding: 2px;
+    text-align: right;
+}
+
+#video {
+    width: 100%;
+    height: auto;
+    padding: 5px 0
+}
+
+
+/* contact.html styles */
+
+main {
+    flex: 1 0 auto;
+}
+
+main h2 {
+    padding: 1px;
+    text-align: right;
+    margin-right: 5px;
+    color: #04395e;
+    text-transform: uppercase;
+    border-bottom: 1px solid #04395e; 
+}
+
+#contact {
+    margin-top: 130px;
+}
+
+#contact-form {
+    padding: 20px;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #04395e;
+    border-radius: 4px;
+}
+
+.text-input-enquiry {
+    height: 128px;
+}
+
+/* footer styles */
+
 .footer {
     display: flex;
     position: fixed;
@@ -140,6 +240,8 @@ main {
     font-size: 160%;
     padding: 5px 3px;
 }
+
+/* media queries */
 
 @media screen and (min-width: 768px) {
     header {
