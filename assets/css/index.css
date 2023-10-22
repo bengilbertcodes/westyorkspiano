@@ -121,11 +121,8 @@ a {
 /* music.html styles */
 
 main h2 {
-    padding: 4px;
-    text-align: center;
-    margin-right: 5px;
+    padding: 3px;
     color: #04395e;
-    /* text-transform: uppercase; */
     border-bottom: 1px solid #04395e;
 }
 
@@ -135,7 +132,7 @@ main h4 {
 }
 
 main p {
-    padding: 2px;
+    padding: 5px;
 }
 
 #video {
@@ -146,12 +143,18 @@ main p {
 
 /* contact.html styles */
 
-#contact {
-    margin-top: 130px;
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #04395e;
+    color: #f7ede2;
+    margin: 5px;
+    border-radius: 10px;
 }
 
-#contact-form {
-    padding: 20px;
+label {
+    padding-bottom: 5px;
 }
 
 .text-input {
@@ -159,11 +162,31 @@ main p {
     height: 25px;
     border: 1px solid #04395e;
     border-radius: 4px;
+    background-color: #f7ede2;
+    padding: 5px
 }
 
-.text-input-enquiry {
-    height: 128px;
+#message {
+    height: 150px;
+    width: 100%;
+    border: 1px solid #04395e;
+    border-radius: 4px;
+    font-family: inherit;
+    background-color: #f7ede2;
+    padding: 5px;
 }
+
+/* submit button styles */
+
+#contact-form input[type=submit] {
+    height: 40px;
+    max-width: 200px ;
+    background: #f7ede2;
+    font-size: 100%;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
 
 /* footer styles */
 
