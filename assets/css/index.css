@@ -29,9 +29,10 @@ header {
 }
 
 h1 {
-   font-size: 225%;
+   text-transform: uppercase;
+   font-size: 220%;
    letter-spacing: 1px;
-   padding-left: 4px;
+   padding-left: 3px;
    width: 60%;
    text-align: left;
    color: #f7ede2;
@@ -120,11 +121,11 @@ a {
 /* music.html styles */
 
 main h2 {
-    padding: 1px;
-    text-align: right;
+    padding: 4px;
+    text-align: center;
     margin-right: 5px;
     color: #04395e;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     border-bottom: 1px solid #04395e;
 }
 
@@ -172,6 +173,8 @@ main p {
     position: fixed;
     left: 0;
     bottom: 0;
+    padding-top: 3px;
+    padding-bottom: 5px;
     width: 100%;
     background-color: #896978;
     color: #f7ede2;
@@ -203,17 +206,17 @@ main p {
 
 @media screen and (min-width: 407px) {
     h1 {
-        width: 80%;
+        width: 90%;
     }
 }
 
-@media screen and (min-width: 497px) {
+@media screen and (min-width: 487px) {
     h1 {
         width: 70%;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 833px) {
     header {
         display: flex;
         align-items: center;
@@ -248,7 +251,7 @@ main p {
 
 @media screen and (min-width: 914px) {
     h1 {
-        width: 60%;
+        width: 70%;
     }
 }
 
