@@ -11,7 +11,6 @@ body {
     background-color: #f7ede2;
     font-family: "Merriweather", Helvetica, sans-serif;
     height: 100vh;
-    overflow: hidden;
 }
 
 /* Header and nav styles */
@@ -21,6 +20,8 @@ header {
     left: 0;
     top: 0;
     width: 100%;
+    min-height: 100px;
+    max-height: 130px;
     background-color: #896978;
     box-shadow: 0 2px 2px #04395e;
     display: flex;
@@ -35,6 +36,21 @@ h1 {
    color: #f7ede2;
    font-family: "Karla", serif;
    background-color: #896978;
+}
+
+/* Nav screen reader info not visible for sighted users */
+.sr-only {
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px); 
+    clip-path: polygon(0px 0px, 0px 0px, 0px 0px); 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    width: 1px; 
+    white-space: nowrap; 
 }
 
 nav {
@@ -79,11 +95,6 @@ a {
 
 /* index.html styles */
 
-/* This all needs to be fixed. each image should take up one third of available space */
-main {
-    margin-top: 128px;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -96,35 +107,7 @@ main {
     font-weight: 100;
 }
 
-.box1 {
-    background-image: url("../images/ben-gilbert-38.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 120px;
-    border: 3px solid #f7ede2;
-}
-
-.box2 {
-    background-image: url("../images/ben-gilbert-38.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 120px;
-    border: 3px solid #f7ede2;
-}
-
-.box3 {
-    background-image: url("../images/ben-gilbert-38.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 120px;
-    border: 3px solid #f7ede2;
-}
-
 /* lessons.html styles */
-
-.main {
-    margin-top: 130px;
-}
 
 .main > h2 {
     text-align: right;
@@ -149,11 +132,6 @@ main {
 
 /* music.html styles */
 
-main {
-    margin-top: 130px;
-    flex: 1 0 auto;
-}
-
 main h2 {
     padding: 1px;
     text-align: right;
@@ -170,7 +148,6 @@ main h4 {
 
 main p {
     padding: 2px;
-    text-align: right;
 }
 
 #video {
@@ -179,21 +156,7 @@ main p {
     padding: 5px 0
 }
 
-
 /* contact.html styles */
-
-main {
-    flex: 1 0 auto;
-}
-
-main h2 {
-    padding: 1px;
-    text-align: right;
-    margin-right: 5px;
-    color: #04395e;
-    text-transform: uppercase;
-    border-bottom: 1px solid #04395e; 
-}
 
 #contact {
     margin-top: 130px;
@@ -269,13 +232,6 @@ main h2 {
     .nav-toggle-label {
         display: none;
     }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
 
     .main {
         margin-top: 100px;
