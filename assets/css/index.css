@@ -146,12 +146,14 @@ main p {
 #contact-form {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 10px 15px;
     background-color: #04395e;
     color: #f7ede2;
     margin: 5px;
     border-radius: 10px;
+    max-width: 600px;
 }
+
 
 label {
     padding-bottom: 5px;
@@ -233,7 +235,7 @@ label {
     }
 }
 
-@media screen and (min-width: 487px) {
+@media screen and (min-width: 486px) {
     h1 {
         width: 70%;
     }
