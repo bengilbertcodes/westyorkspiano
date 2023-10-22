@@ -20,7 +20,7 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    min-height: 100px;
+    min-height: 80px;
     max-height: 130px;
     background-color: #896978;
     box-shadow: 0 2px 2px #04395e;
@@ -32,6 +32,7 @@ h1 {
    font-size: 225%;
    letter-spacing: 1px;
    padding-left: 4px;
+   width: 60%;
    text-align: left;
    color: #f7ede2;
    font-family: "Karla", serif;
@@ -93,29 +94,15 @@ a {
     border-bottom: 1px solid #04395e;
 }
 
+.text-center {
+    text-align: center;
+}
+
+/* Main styles */
+
 /* index.html styles */
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-.container h2 {
-    color: #f7ede2;
-    padding: 10px;
-    font-size: 35px;
-    font-weight: 100;
-}
-
 /* lessons.html styles */
-
-.main > h2 {
-    text-align: right;
-    margin-right: 5px;
-    color: #04395e;
-    text-transform: uppercase;
-    border-bottom: 1px solid #04395e;
-}
 
 .main > p {
     padding: 3px ;
@@ -181,6 +168,7 @@ main p {
 
 .footer {
     display: flex;
+    flex-direction: column;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -189,6 +177,7 @@ main p {
     color: #f7ede2;
     text-align: center;
     box-shadow: 0 0 0 2px #04395e;
+    justify-content: space-between;
 }
 
 .sm-links {
@@ -206,10 +195,32 @@ main p {
 
 /* media queries */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 406px) {
+    h1 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 407px) {
+    h1 {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 497px) {
+    h1 {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 800px) {
     header {
         display: flex;
         align-items: center;
+    }
+
+    h1 {
+        width: 80%;
     }
 
     nav {
@@ -233,8 +244,11 @@ main p {
         display: none;
     }
 
-    .main {
-        margin-top: 100px;
+}
+
+@media screen and (min-width: 914px) {
+    h1 {
+        width: 60%;
     }
 }
 
@@ -242,4 +256,5 @@ main p {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+
 }
