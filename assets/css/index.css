@@ -104,15 +104,42 @@ a {
 
 #hero-image img {
     width: 99%;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 .page-title {
     padding: 3px;
     color: #04395e;
     border-bottom: 1px solid #04395e;
+}
+
+/* Index main styles */
+
+main p {
+    padding: 5px;
+    color: #3a3a3a;
+}
+
+#index-main img{
+    width: 40vw;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+/* Standard row and column flexbox styles */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    /* flex-direction: column; */
+    flex-basis: 100%;
+    flex: 1;
 }
 
 /* Thankyou styles */
@@ -134,15 +161,18 @@ a {
 
 /* lessons.html styles */
 
-.main > p {
-    padding: 3px ;
+#lessons-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
-.main img {
-    width: 100%;
+#lessons-main img {
+    width: 30%;
 }
 
-.main > ul {
+#lessons-list {
     margin: 3px 20px;
     list-style-image: url("../images/piano-list-icon.png");
 }
@@ -156,9 +186,7 @@ main h4 {
 
 }
 
-main p {
-    padding: 5px;
-}
+
 
 #video {
     width: 100%;
