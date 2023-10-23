@@ -232,6 +232,9 @@ label {
     border: 3px outset #B1740F;
 }
 
+.error-page {
+    padding: 10%;
+}
 
 /* footer styles */
 
