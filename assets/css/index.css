@@ -100,6 +100,13 @@ a {
 
 /* Main styles */
 
+#hero-image img {
+    width: 99%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
 .page-title {
     padding: 3px;
     color: #04395e;
@@ -199,10 +206,12 @@ label {
 #contact-form input[type=submit] {
     height: 40px;
     max-width: 200px ;
+    color: #04395e;
     background: #f7ede2;
     font-size: 100%;
     border-radius: 5px;
     border-width: 3px;
+    border: 3px outset #B1740F;
 }
 
 
@@ -261,7 +270,7 @@ label {
     }
 }
 
-@media screen and (min-width: 833px) {
+@media screen and (min-width: 850px) {
     header {
         display: flex;
         align-items: center;
