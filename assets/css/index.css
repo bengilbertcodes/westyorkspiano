@@ -28,12 +28,11 @@ header {
     justify-content: space-between;
 }
 
-h1 {
+#logo {
    text-transform: uppercase;
    font-size: 220%;
    letter-spacing: 1px;
    padding-left: 3px;
-   width: 60%;
    text-align: left;
    color: #f7ede2;
    font-family: "Karla", serif;
@@ -101,7 +100,28 @@ a {
 
 /* Main styles */
 
-/* index.html styles */
+.page-title {
+    padding: 3px;
+    color: #04395e;
+    border-bottom: 1px solid #04395e;
+}
+
+/* Thankyou styles */
+
+.thankyou {
+    color: #04395e;
+    font-size: 120%;
+    padding: 20px;
+}
+
+.thankyou > h2 {
+    padding: 30px;
+}
+
+.returning {
+    font-size: 75%;
+    padding-top: 45px;
+}
 
 /* lessons.html styles */
 
@@ -120,11 +140,7 @@ a {
 
 /* music.html styles */
 
-main h2 {
-    padding: 3px;
-    color: #04395e;
-    border-bottom: 1px solid #04395e;
-}
+
 
 main h4 {
     padding: 2px;
@@ -169,7 +185,7 @@ label {
 }
 
 #message {
-    height: 150px;
+    min-height: 150px;
     width: 100%;
     border: 1px solid #04395e;
     border-radius: 4px;
@@ -217,8 +233,12 @@ label {
 }
 
 .sm-links i {
-    font-size: 160%;
+    font-size: 180%;
     padding: 5px 3px;
+}
+
+.copyright {
+    font-size: 0.6em;
 }
 
 /* media queries */
