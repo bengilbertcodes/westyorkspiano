@@ -22,7 +22,9 @@ header {
     width: 100%;
     min-height: 80px;
     max-height: 130px;
-    background-color: #896978;
+    /* background-color: #896978; */
+    background: rgb(137,105,120);
+    background: linear-gradient(90deg, rgba(137,105,120,1) 26%, rgba(225,219,221,1) 100%);
     box-shadow: 0 2px 2px #04395e;
     display: flex;
     justify-content: space-between;
@@ -36,7 +38,7 @@ header {
    text-align: left;
    color: #f7ede2;
    font-family: "Karla", serif;
-   background-color: #896978;
+   /* background-color: #896978; */
 }
 
 /* Nav screen reader info not visible for sighted users */
@@ -226,7 +228,7 @@ label {
     padding-top: 3px;
     padding-bottom: 5px;
     width: 100%;
-    background-color: #896978;
+    background-color: #ba9eab;
     color: #f7ede2;
     text-align: center;
     box-shadow: 0 0 0 2px #04395e;
@@ -247,6 +249,7 @@ label {
 }
 
 .copyright {
+    color: #3a3a3a;
     font-size: 0.6em;
 }
 
@@ -286,7 +289,7 @@ label {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        background-color: #896978;
+        background-color: transparent;
     }
 
     #menu {
