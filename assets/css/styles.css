@@ -22,7 +22,7 @@ header {
     width: 100%;
     min-height: 80px;
     max-height: 130px;
-    /* background-color: #896978; */
+    /* add gradient colour to header */
     background: rgb(137,105,120);
     background: linear-gradient(90deg, rgba(137,105,120,1) 26%, rgba(225,219,221,1) 100%);
     box-shadow: 0 2px 2px #04395e;
@@ -38,7 +38,6 @@ header {
    text-align: left;
    color: #f7ede2;
    font-family: "Karla", serif;
-   /* background-color: #896978; */
 }
 
 /* Nav screen reader info not visible for sighted users */
@@ -161,18 +160,7 @@ main p {
 
 /* lessons.html styles */
 
-#lessons-main {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 5px;
-    padding-left: 5px;
-}
-
-#lessons-main img {
-    width: 30%;
-}
-
-#lessons-list {
+.lessons-list {
     margin: 3px 20px;
     list-style-image: url("../images/piano-list-icon.png");
 }
