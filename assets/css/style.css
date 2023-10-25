@@ -113,6 +113,10 @@ a {
     border-bottom: 1px solid #04395e;
 }
 
+main {
+    padding-bottom: 60px;
+}
+
 /* Index main styles */
 
 main p {
@@ -141,6 +145,22 @@ main p {
     flex: 1;
 }
 
+
+.lessons-list {
+    margin: 3px 20px;
+    list-style-image: url("../images/piano-list-icon.png");
+}
+
+main h4 {
+    padding: 2px;
+}
+
+.iframe {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 5px;
+}
 /* Thankyou styles */
 
 .thankyou {
@@ -156,30 +176,6 @@ main p {
 .returning {
     font-size: 75%;
     padding-top: 45px;
-}
-
-/* lessons.html styles */
-
-.lessons-list {
-    margin: 3px 20px;
-    list-style-image: url("../images/piano-list-icon.png");
-}
-
-/* music.html styles */
-
-
-
-main h4 {
-    padding: 2px;
-
-}
-
-
-
-#video {
-    width: 100%;
-    height: auto;
-    padding: 5px 0
 }
 
 /* contact.html styles */
