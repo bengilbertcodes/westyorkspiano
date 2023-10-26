@@ -131,14 +131,14 @@ main {
 h3 {
     letter-spacing: 0.1rem;
     padding-bottom: 3px;
-    color: #B1740F;
+    color: #ea9e24;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 80%;
   }
 
 .index-img {
@@ -152,7 +152,6 @@ h3 {
     color: #f7ede2;
     background-color: #04395e;
     border: 1px solid #04395e;
-    box-shadow: 3px 3px #3a3a3a;
     border-radius: 10px;
 }
 
@@ -162,20 +161,6 @@ h3 {
     margin: 3px 20px;
     list-style-image: url("../images/piano-list-icon.png");
 }
-
-/* .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-} */
 
 .container {
     display: flex;
@@ -268,7 +253,7 @@ label {
     font-size: 100%;
     border-radius: 5px;
     border-width: 3px;
-    border: 3px outset #B1740F;
+    border: 3px outset #ea9e24;
 }
 
 .error-page {
@@ -330,9 +315,9 @@ label {
         width: 70%;
     }
 
-    .iframe {
+    /* .iframe {
         width: 50%;
-    }
+    } */
 
 }
 
