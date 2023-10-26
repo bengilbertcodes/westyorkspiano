@@ -109,7 +109,8 @@ a {
 }
 
 .page-title {
-    padding: 3px;
+    padding-top: 5px;
+    letter-spacing: 0.1rem;
     color: #04395e;
     border-bottom: 1px solid #04395e;
 }
@@ -118,14 +119,51 @@ main {
     padding-bottom: 60px;
 }
 
-#index-main img{
-    width: 50vw;
-    margin: 5px;
-    border-radius: 50%;
+.text-styles {
+    color: #3a3a3a;
+    padding: 5px;
 }
 
-/* Standard row and column flexbox styles */
-.row {
+.text-styles p {
+    padding-top: 5px;
+}
+
+h3 {
+    letter-spacing: 0.1rem;
+    padding-bottom: 3px;
+    color: #B1740F;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+.index-img {
+    padding-top: 5px;
+    border-radius: 30%;
+}
+
+.lessons {
+    margin: 5px;
+    padding: 5px;
+    color: #f7ede2;
+    background-color: #04395e;
+    border: 1px solid #04395e;
+    box-shadow: 3px 3px #3a3a3a;
+    border-radius: 10px;
+}
+
+
+.lessons-list {
+    padding: 0.2em;
+    margin: 3px 20px;
+    list-style-image: url("../images/piano-list-icon.png");
+}
+
+/* .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -137,19 +175,13 @@ main {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-}
+} */
 
 .container {
     display: flex;
     justify-content: space-evenly;
     align-items: end;
     flex-wrap: wrap;
-}
-
-
-.lessons-list {
-    margin: 3px 20px;
-    list-style-image: url("../images/piano-list-icon.png");
 }
 
 .iframe {
@@ -193,9 +225,15 @@ iframe {
     color: #f7ede2;
     margin: 5px;
     border-radius: 10px;
-    max-width: 600px;
+    width: 80%;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 label {
     padding-bottom: 5px;
