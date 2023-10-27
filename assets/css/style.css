@@ -121,16 +121,11 @@ main {
 
 .text-styles {
     color: #3a3a3a;
-    padding: 0 5px 5px;
-}
-
-.text-styles p {
-    padding-top: 5px;
+    padding: 5px 5px 5px;
 }
 
 h3 {
     letter-spacing: 0.1rem;
-    padding-bottom: 3px;
     color: #ea9e24;
 }
 
@@ -147,7 +142,10 @@ h3 {
     max-width: 600px;
 }
 
-.lessons {
+.lessons-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 5px;
     padding: 5px;
     color: #f7ede2;
@@ -156,11 +154,26 @@ h3 {
     border-radius: 10px;
 }
 
-
-.lessons-list {
-    padding: 0.2em;
+.item1 {
+    width: 50%;
+}
+.lessons-box ul {
+    padding: 5px;
     margin: 3px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     list-style-image: url("../images/piano-list-icon.png");
+}
+
+.image-container {
+    display: flex;
+
+}
+
+.image1 {
+    padding: 3px;
+    width: calc(100% / 3);
 }
 
 .container {
@@ -240,7 +253,7 @@ label {
     font-family: inherit;
     background-color: #f7ede2;
     padding: 5px;
-}
+} */
 
 /* Thank you page styles */
 .thankyou {
