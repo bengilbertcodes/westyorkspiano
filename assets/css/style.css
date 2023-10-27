@@ -121,7 +121,7 @@ main {
 
 .text-styles {
     color: #3a3a3a;
-    padding: 5px;
+    padding: 0 5px 5px;
 }
 
 .text-styles p {
@@ -168,6 +168,15 @@ h3 {
     justify-content: center;
     align-items: end;
     flex-wrap: wrap;
+    width: 100%;
+}
+
+.container-podcast {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    padding-top: 10px;
 }
 
 .iframe {
@@ -183,22 +192,6 @@ iframe {
     width: 100%;
   }
 
-/* Thankyou styles */
-
-.thankyou {
-    color: #04395e;
-    font-size: 120%;
-    padding: 20px;
-}
-
-.thankyou > h2 {
-    padding: 30px;
-}
-
-.returning {
-    font-size: 75%;
-    padding-top: 45px;
-}
 
 /* contact.html styles */
 
@@ -247,6 +240,22 @@ label {
     font-family: inherit;
     background-color: #f7ede2;
     padding: 5px;
+}
+
+/* Thank you page styles */
+.thankyou {
+    color: #04395e;
+    font-size: 120%;
+    padding: 20px;
+}
+
+.thankyou > h2 {
+    padding: 30px;
+}
+
+.returning {
+    font-size: 75%;
+    padding-top: 45px;
 }
 
 /* submit button styles */
