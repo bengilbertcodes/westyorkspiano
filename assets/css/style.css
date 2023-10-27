@@ -144,6 +144,7 @@ h3 {
 .index-img {
     padding-top: 5px;
     border-radius: 30%;
+    max-width: 600px;
 }
 
 .lessons {
@@ -210,7 +211,13 @@ iframe {
     color: #f7ede2;
     margin: 5px;
     border-radius: 10px;
-    width: 80%;
+    width: 95%;
+}
+
+#contact-img {
+    margin: 5px;
+    width: 95%;
+    border-radius: 10px;
 }
 
 .form {
@@ -352,6 +359,21 @@ label {
         display: none;
     }
 
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    #contact-form {
+        max-width: 850px;
+    }
+
+    #contact-img {
+        max-width: 850px;
+    }
+
+    .center {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 914px) {
@@ -360,9 +382,19 @@ label {
     }
 }
 
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
+@media screen and (min-width: 1200px) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    .text-styles {
+        text-align: center;
+        font-size: 120%;
+    }
 }
