@@ -17,7 +17,7 @@ body {
 /* Header and nav styles */
 
 header {
-    position: sticky;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -116,6 +116,7 @@ a {
 }
 
 main {
+    padding-top: 123px;
     padding-bottom: 60px;
 }
 
@@ -338,6 +339,12 @@ label {
 }
 
 /* media queries */
+
+@media screen and (min-width: 334px) {
+    main {
+        padding-top: 82px;
+    }
+}
 
 @media screen and (max-width: 406px) {
     h1 {
