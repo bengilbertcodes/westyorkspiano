@@ -152,6 +152,7 @@ h3 {
     background-color: #04395e;
     border: 1px solid #04395e;
     border-radius: 10px;
+    max-width: 1200px;
 }
 
 .item1 {
@@ -168,12 +169,12 @@ h3 {
 
 .image-container {
     display: flex;
-
+    flex-direction: column;
 }
 
 .image1 {
-    padding: 3px;
-    width: calc(100% / 3);
+    padding: 5px;
+    width: 100%
 }
 
 .container {
@@ -394,6 +395,15 @@ label {
     .container {
         display: grid;
         grid-template-columns: 50% 50%;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .image1 {
+        width: calc(100% / 3);
     }
 }
 
