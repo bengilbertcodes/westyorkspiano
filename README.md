@@ -80,3 +80,61 @@ This is a website for the West Yorkshire Piano Studio - a music business based i
     * When send is clicked and all fields have been completed the user will see thankyou.html displaying a success message. A 10 second timer is implemented to here to return the user to the homepage.
 
     ![Thank you message](docs/readme_images/thankyou.jpg)
+
+### Existing Features
+
+* A fully responisve design - designed to work from screensizes greater than 280px.
+* A crop down menu utilised when the burger icon is clicked on smaller screens.
+* Contact form and confrimation (thank you) page.
+* Images throughout the site.
+
+## Design
+
+### Wireframes
+
+Home Page
+![Home page wireframe](docs/readme_images/index.png)
+![Home page mobile wireframe](docs/readme_images/index-mobile.png)
+
+
+Lessons Page
+![Lessons page wireframe](docs/readme_images/lessons.png)
+![Lessons mobile page wireframe](docs/readme_images/lessons-mobile.png)
+
+
+Music Page
+![Music page wireframe](docs/readme_images/music.png)
+![Music mobile page wireframe](docs/readme_images/music-mobile.png)
+
+
+Contact Page
+![Contact Page wireframe](docs/readme_images/Contact.png)
+![Contact mobile page wireframe](docs/readme_images/contact-mobile.png)
+
+
+
+## Technologies
+
+* HTML
+    * The structure of the Website was developed using HTML as the main language.
+* CSS
+    * The Website was styled using custom CSS in an external file.
+* Visual Studio Code
+    * The website was developed using Visual Studio Code IDE
+* GitHub
+    * Source code is hosted on GitHub and delpoyed using Git Pages.
+* Git 
+    * Used to commit and push code during the development opf the Website
+* Font Awesome
+    * Social media icons, burger/menu icon and music notes icon were obtained from https://fontawesome.com/.
+* Google Fonts
+    * The two fonts used (Merriweather and Karla) came from https://fonts.google.com/
+* Webp Image converter
+    * https://image.online-convert.com/ was used to convert images to .webp.
+* Photos (Mac)
+    * Used to resize photos throughout the site.
+* Favicon.io
+    * The favicon was created at https://favicon.io/favicon-generator/.
+* Balsamiq
+    * Wireframes were created using Balsamiq for Desktop https://balsamiq.com/wireframes/desktop/
+
