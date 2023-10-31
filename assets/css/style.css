@@ -150,10 +150,11 @@ h3 {
 
 .get-in-touch {
     color: #046fbb;
+    border-bottom: 2px solid #046fbb;
 }
 
 .get-in-touch:hover {
-    border-bottom: 2px solid #046fbb;
+    border-bottom: none;
 }
 
 .lessons-container {
