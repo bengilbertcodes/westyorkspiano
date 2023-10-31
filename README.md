@@ -138,3 +138,44 @@ Contact Page
 * Balsamiq
     * Wireframes were created using Balsamiq for Desktop https://balsamiq.com/wireframes/desktop/
 
+### Testing
+
+## Responsiveness
+
+All pages were tested to ensure a responsive design was acheieved on screen sizes from 280px (Galaxy Fold) and upwards as defined in WCAG 2.2 Reflow Criteria (https://www.w3.org/TR/WCAG22/#reflow).
+
+Steps to test:
+
+1. Open Chrome browser and naviagte to https://bengilbertcodes.github.io/westyorkspiano/.
+2. Right click and se;ect Inspect to open developer tools.
+3. Set to Responsive and reduce the width to 280px and set zoom to 50%.
+4. Click and drag to repsonsive window up to max-width.
+
+Expected results:
+
+The site is responsive on all screen sizes, no images and iframes are stretched.
+No horizontal scroll is present.
+No elelments overlap.
+
+Actual Results:
+The webiste meets all responsiveness criteria.
+
+The website has also been checked in Firefox, Safari, Chrome and Edge browsers and the following devices:
+- Google Pixel 3a
+- Ipad Pro
+- Iphone 13
+
+### Accessibility 
+
+The Wave Accessibility (https://wave.webaim.org/) tool has been used throughout development and for the final testing of the website.
+
+No errors were reported accross the site. 
+
+Alerts:
+
+- For redundant links where Home in the nav menu is next to the clickable page title. I am happy to leave this as is.
+- Copyright text is very small. Due to this being just a copyright note I am happy to leave this.
+- Embedded Youtube videos are present - Ensure that synchronized captioning is available. Two videos do not need captioning and two with a singer don't have them. This is something I need to consider for future recordings. 
+
+### Lighthouse Testing
+
