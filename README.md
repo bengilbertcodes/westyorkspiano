@@ -186,3 +186,31 @@ lessons.html:
 ![Lighthouse image for lessons.html](docs/readme_images/lessons-lighthouse.png)
 
 music.html
+![Lighthouse image for music.html](docs/readme_images/music-lighthouse.png)
+
+contact.html
+![Lighthouse image for contact.html](docs/readme_images/contact-lighthouse.png)
+
+All pages achieve score of 100 with the exception of music.html. This is due to the use of iframes for the videos and podcasts. As they are essentially a page within a page this greatly affects loading times. I will address this issue for future developments by reducing iframe use.
+
+### Functional Testing
+
+## Navigation Links
+
+All navigation links across the site have been tested to ensure they guide the user to their respective pages. 
+
+All social media links open in new pages.
+
+## Form Testing
+
+The form on contact.html hes been tested to ensure it functions as expected when data is enetered by the user, either correctly or incorrectly.
+
+* If all fields are completed correctly by the user, when Send is clicked the user is presented with the thankyou.html page and then redirected back to home.html after 10 seconds of inactivity. 
+* If Name: field is not completed then form will not submit and 'Please fill in this field' message is displayed.
+* If Email: field is not completed then form will not submit and 'Please fill in this field' message is displayed.
+* If Email: field is completed but data is not in email format (a@b.c) then the form will not submit and 'Please include an @ in the email address' message is displayed.
+* If Mobile: field is incommplete then form will not submit and 'Please fill in this field' message is displayed.
+* If Mobile: field is completed using anything another than a string of 11 digits then form will not submit and 'Please match the format' massage is displayed
+* If Message: field is incomplete then form will not submit and 'Please fill in this field' message is displayed.
+
+
