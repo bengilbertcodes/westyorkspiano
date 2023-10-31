@@ -193,15 +193,15 @@ contact.html
 
 All pages achieve score of 100 with the exception of music.html. This is due to the use of iframes for the videos and podcasts. As they are essentially a page within a page this greatly affects loading times. I will address this issue for future developments by reducing iframe use.
 
-### Functional Testing
+## Functional Testing
 
-## Navigation Links
+### Navigation Links
 
 All navigation links across the site have been tested to ensure they guide the user to their respective pages. 
 
 All social media links open in new pages.
 
-## Form Testing
+### Form Testing
 
 The form on contact.html hes been tested to ensure it functions as expected when data is enetered by the user, either correctly or incorrectly.
 
@@ -213,4 +213,13 @@ The form on contact.html hes been tested to ensure it functions as expected when
 * If Mobile: field is completed using anything another than a string of 11 digits then form will not submit and 'Please match the format' massage is displayed
 * If Message: field is incomplete then form will not submit and 'Please fill in this field' message is displayed.
 
+## Validator Testing
+
+* HTML
+    • 
+
+* CSS
+
+    • No errors returned using the official Jigsaw Validator https://jigsaw.w3.org/css-validator/
+![Alt text](docs/readme_images/jigsaw-results.png)
 
