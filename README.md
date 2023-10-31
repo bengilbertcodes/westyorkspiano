@@ -227,10 +227,22 @@ The form on contact.html hes been tested to ensure it functions as expected when
 ![music.html check image](docs/readme_images/music-html-check.png)
 
     • contact.html
+![contact.html check image](docs/readme_images/contact-html-check.png)
 
+    • thankyou.html
+![thankyou.html check image](docs/readme_images/thankyou-html-check.png)
+
+    • 404.html
+![404.html check image](docs/readme_images/404-html-check.png)
 
 * CSS
 
     • No errors returned using the official Jigsaw Validator https://jigsaw.w3.org/css-validator/
 ![CSS Jigsaw check results image](docs/readme_images/jigsaw-results.png)
+
+### Unfixed Bugs
+There are no reported bugs to fix. 
+Reducing use of Iframes recommeneded for future releases.
+
+## Deployment
 
