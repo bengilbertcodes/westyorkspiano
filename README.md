@@ -179,3 +179,10 @@ Alerts:
 
 ### Lighthouse Testing
 
+index.html:
+![Lighthouse image for index.html](docs/readme_images/homepage-lighthouse.png)
+
+lessons.html:
+![Lighthouse image for lessons.html](docs/readme_images/lessons-lighthouse.png)
+
+music.html

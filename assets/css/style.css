@@ -132,7 +132,7 @@ main {
 h3 {
     font-size: 160%;
     letter-spacing: 0.1rem;
-    color: #e4e1dc;
+    /* color: #e4e1dc; */
 }
 
 .center {
@@ -179,6 +179,9 @@ h3 {
 
 .item1 {
     width: 50%;
+    font-size: 160%;
+    letter-spacing: 0.1rem;
+    color: #e4e1dc;
 }
 .lessons-box ul {
     padding: 5px;
