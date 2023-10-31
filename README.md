@@ -224,6 +224,9 @@ The form on contact.html hes been tested to ensure it functions as expected when
 ![lessons.html check image](docs/readme_images/lessons-html-check.png)
 
     • music.html
+![music.html check image](docs/readme_images/music-html-check.png)
+
+    • contact.html
 
 
 * CSS
