@@ -216,10 +216,18 @@ The form on contact.html hes been tested to ensure it functions as expected when
 ## Validator Testing
 
 * HTML
-    • 
+
+    • Index.html
+![Index.html html check image](docs/readme_images/index-html-check.png)
+
+    • lessons.html
+![lessons.html check image](docs/readme_images/lessons-html-check.png)
+
+    • music.html
+
 
 * CSS
 
     • No errors returned using the official Jigsaw Validator https://jigsaw.w3.org/css-validator/
-![Alt text](docs/readme_images/jigsaw-results.png)
+![CSS Jigsaw check results image](docs/readme_images/jigsaw-results.png)
 
