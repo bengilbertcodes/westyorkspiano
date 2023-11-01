@@ -17,7 +17,7 @@ The live site: https://bengilbertcodes.github.io/westyorkspiano/
     ![Large Screen Nav Menu](docs/readme_images/large-screen-nav.jpg) ![Small Screen Nav Menu](docs/readme_images/small-screen-nav.jpeg)
 
 * Footer
-    * This contains links to social media and music websites. Icons are accessible to people using a screen reader through the use of aria labels. ALl icons open into new tabs. The social media and music websites will enable the user to get a bigger picture about the West Yokrshire Piano Studio.
+    * This contains links to social media and music websites. Icons are accessible to people using a screen reader through the use of aria labels. All icons open into new tabs. The social media and music websites will enable the user to get a bigger picture about the West Yokrshire Piano Studio.
     
     ![Footer](docs/readme_images/footer.jpg)
 
@@ -245,7 +245,7 @@ The form on contact.html hes been tested to ensure it functions as expected when
 ### Unfixed Bugs
 There are no reported bugs to fix. 
 Reducing use of Iframes recommeneded for future releases.
-THe lessons-boxes don't adjust to different screen sizes at exactly the same time and at the time of writing this I haven't been able to correct this. 
+The lessons-boxes don't adjust to different screen sizes at exactly the same time and at the time of writing this I haven't been able to correct this. 
 
 ## Deployment
 

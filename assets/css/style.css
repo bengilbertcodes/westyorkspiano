@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-/* Header and nav styles */
+/* Header styles */
 
 header {
     position: fixed;
@@ -22,7 +22,9 @@ header {
     width: 100%;
     min-height: 80px;
     max-height: 130px;
-    /* add gradient colour to header */
+
+    /* add gradient colour to header to aid contrast with nav menu colors */
+
     background: rgb(137,105,120);
     background: linear-gradient(90deg, rgba(137,105,120,1) 26%, rgba(225,219,221,1) 100%);
     box-shadow: 0 2px 2px #04395e;
@@ -55,6 +57,7 @@ header {
     white-space: nowrap; 
 }
 
+/* Navigation menu styles */
 nav {
     position: absolute;
     background-color: #f7ede2;
@@ -67,6 +70,8 @@ nav {
     display: none;
     box-shadow: 0 2px 2px #04395e;
 }
+
+/* Drop-down menu styles */
 
 #nav-toggle:checked~nav {
     display: block;
@@ -95,11 +100,9 @@ a {
     border-bottom: 1px solid #04395e;
 }
 
-.text-center {
-    text-align: center;
-}
 
-/* Main styles */
+
+/* Main styles used across the site */
 
 #hero-image img {
     width: 99%;
@@ -120,19 +123,22 @@ main {
     padding-bottom: 60px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .text-styles {
     color: #3a3a3a;
     padding: 5px 5px 5px;
 }
 
 .text-styles p {
-    padding-top: 5px
+    padding-top: 5px;
 }
 
 h3 {
     font-size: 160%;
     letter-spacing: 0.1rem;
-    /* color: #e4e1dc; */
 }
 
 .center {
@@ -148,14 +154,20 @@ h3 {
     max-width: 600px;
 }
 
+/* make inline link more visible - better for Lighthouse score */
+
 .get-in-touch {
     color: #046fbb;
     border-bottom: 2px solid #046fbb;
 }
 
+/* Remove border when pointer hovers link */
+
 .get-in-touch:hover {
     border-bottom: none;
 }
+
+/* Lesson boxes styles */
 
 .lessons-container {
     display: flex;
@@ -166,8 +178,7 @@ h3 {
 
 .lessons-box {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
     margin: 5px;
     padding: 5px;
     color: #f7ede2;
@@ -191,6 +202,7 @@ h3 {
     list-style-image: url("../images/piano-list-icon.png");
 }
 
+/* Images at bottom of Lessons page */
 .image-container {
     display: flex;
     flex-direction: column;
@@ -200,6 +212,8 @@ h3 {
     padding: 5px;
     width: 100%
 }
+
+/* music.html styles */
 
 .container {
     display: flex;
@@ -217,6 +231,8 @@ h3 {
     padding-top: 10px;
 }
 
+/* iframe styles */
+
 .iframe {
     display: flex;
     flex-direction: column;
@@ -232,7 +248,7 @@ iframe {
   }
 
 
-/* contact.html styles */
+/* contact form styles */
 
 #contact-form {
     display: flex;
@@ -278,6 +294,7 @@ label {
 }
 
 /* Thank you page styles */
+
 .thankyou {
     color: #04395e;
     font-size: 120%;
@@ -305,8 +322,10 @@ label {
     border: 3px outset #b8b8b8;
 }
 
+/* Push 404 message down the page */
+
 .error-page {
-    padding: 10%;
+    padding-top: 25%;
 }
 
 /* footer styles */
@@ -347,6 +366,8 @@ label {
 
 /* media queries */
 
+/* To keep title within the header */
+
 @media screen and (min-width: 334px) {
     main {
         padding-top: 82px;
@@ -371,6 +392,16 @@ label {
     }
 }
 
+/* To change appearance of lessons-boxes for larger screens */
+
+@media screen and (max-width : 767px) {
+    .lessons-box {
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+}
+
+/* to make the site responsive on all screens */
 @media screen and (min-width: 850px) {
     header {
         display: flex;
@@ -438,6 +469,8 @@ label {
         width: 70%;
     }
 }
+
+/* reduce main width for very large displays */
 
 @media screen and (min-width: 1200px) {
 
