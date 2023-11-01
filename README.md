@@ -243,6 +243,40 @@ The form on contact.html hes been tested to ensure it functions as expected when
 ### Unfixed Bugs
 There are no reported bugs to fix. 
 Reducing use of Iframes recommeneded for future releases.
+THe lessons-boxes don't adjust to different screen sizes at exactly the same time and at the time of writing this I haven't been able to correct this. 
 
 ## Deployment
 
+### Version Control
+
+The site was created using Visual Studio code editor and pushed to the remote repository 'westyorkspiano' on Github.
+
+Code was pushed to the repository using Visual Studio's ```commit``` and ```commit & push``` commands.
+
+### Deployment
+
+The site was deployed to Github pages.
+
+I used the following steps to deploy the site:
+
+• Open the repository in github https://github.com/bengilbertcodes/westyorkspiano
+
+• Click Settings and navigate to Pages
+
+• Make sure Surce is set to 'Deploy from a branch' and the Branch is set to 'Main' and '/Root'
+
+• Click Save
+
+• The live site will be availble via the link or through Deployments on the main repository page.
+
+• The live site: https://bengilbertcodes.github.io/westyorkspiano/
+
+## Credits
+
+* [Karen Gourlay Photography](https://www.facebook.com/KarenGourlayPhotography/)
+    • All pictures used were taken by Karen Gourly Photography. Videos and podcast are all my own.
+
+* [Burger Icon and Drop-down Menu toggle](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/3.7-creating-the-footer/index.html)
+    • Thanks to the Code Institute Love Running walkthrough for the code for this element of the site.
+
+All content is used on the site with the permission of the owners.
