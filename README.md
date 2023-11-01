@@ -2,6 +2,8 @@
 
 This is a website for the West Yorkshire Piano Studio - a music business based in Leeds, UK. The website aims to give the user access to information about all the services on offer, an overview of the business and a way of contacting the business. Music lessons are the primary focus of the West Yorkshire Piano Studio. The site also aims to showcase some of the music that Ben performs with others and also a podcast that he produces.  
 
+The live site: https://bengilbertcodes.github.io/westyorkspiano/
+
 ![MOCKUP](docs/readme_images/mockup.jpg)
 
 ## Features
@@ -269,7 +271,8 @@ I used the following steps to deploy the site:
 
 • The live site will be availble via the link or through Deployments on the main repository page.
 
-• The live site: https://bengilbertcodes.github.io/westyorkspiano/
+• 
+
 
 ## Credits
 
